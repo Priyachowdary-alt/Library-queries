@@ -1,0 +1,31 @@
+1. Create Schema Library 
+
+2. Create tables
+	Books: 	BookID - Pk,BookName,AuthorName,Genre,pages
+	Customers : CustomerId - PK, CustomerName, address
+	BooksBorrowed:SlNo,BookID - FK,CustomerID - FK,DaysBookRetained
+	Cost: MaxPages, Cost/day
+
+3.Google Search for books along with authors, genre and pages. Insert atleast 5 authors and 5 different genres into Books Table. Make sure you have atleast 30 records.
+
+4. Insert 15 customers into customer table by providing appropriate details
+
+5. Using BookId in Books Table and CustomerID in Customer Table insert data into BooksBorrowed table to have atleast 50 records.
+
+6. Retrieve the total number of books in each genre.
+s
+7. Retrieve total number of books borrowed.
+
+8. retrieve names of books borrowed without repetition
+
+9. Retrieve the customerName, BookName for books borrowed.
+
+10. Insert below data into Cost table  100pages -10 rs, 200pages -15rs, 300 pages - 30rs, 1000 pages -50Rs
+
+11. total Earnings by Library.
+
+12. Amount paid by each customer. Rank the customers based in amount paid.
+
+
+	
+ 
